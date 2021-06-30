@@ -9,7 +9,7 @@ main {
 
 .landing {
   min-height: 100vh;
-  background: url("./ASSET/photo-1536528679846-3c5a38e3026b.jpeg");
+  background: url(");
   background-size: cover;
   padding: 0rem 5rem;
 }
