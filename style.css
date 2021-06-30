@@ -9,7 +9,7 @@ main {
 
 .landing {
   min-height: 100vh;
-  background: url("https://images.unsplash.com/photo-1536528679846-3c5a38e3026b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1489&q=80");
+  background: url("./ASSET/photo-1536528679846-3c5a38e3026b.jpeg");
   background-size: cover;
   padding: 0rem 5rem;
 }
