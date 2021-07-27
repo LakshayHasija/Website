@@ -255,20 +255,6 @@ main {
   padding: 1rem 2rem;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 10vh;
-}
-.nav-links {
-  display: flex;
-  list-style: none;
-}
-.nav-links li {
-  padding-left: 5rem;
-  font-size: 1.2rem;
-}
 
 #cname {
   font-family: "Lobster", cursive;
@@ -276,6 +262,19 @@ nav {
   font-size: 2rem;
   color: aliceblue;
 }
+
+.section.h1{
+  position: absolute;
+  height: 100%;  
+  left: 78px;
+  width: calc(100% - 78px);  
+  transition: all 0.5s ease;
+}
+
+.sidebar.active ~ .section.h1{
+    width: calc(100% - 240px);
+    left: 240px;
+  }
 
 .big-text {
   position: absolute;
@@ -418,8 +417,9 @@ ul{
     padding: 70px 0;
 }
 .footer-col{
-   width: 25%;
-   padding: 0 15px;
+   width: 30%;
+   padding: 0 100px;
+   
 }
 .footer-col h4{
 	font-size: 18px;
@@ -476,14 +476,14 @@ ul{
 /*responsive*/
 @media(max-width: 767px){
   .footer-col{
-    left: 30px;
+    left: 50px;
     width: 50%;
     margin-bottom: 30px;
 }
 }
 @media(max-width: 574px){
   .footer-col{
-    left: 30px;
+    left: 50px;
     width: 100%;
 }
 }
@@ -493,7 +493,7 @@ ul{
 @media screen and (max-width: 780px) {
     .landing {
       min-height: 100vh;
-      background: url("https://images.pexels.com/photos/4476796/pexels-photo-4476796.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+      background-color: black;
       padding: 0rem 5rem;
     }
     .big-text{
@@ -506,3 +506,4 @@ ul{
       color: rgb(61, 61, 61);
     }
   }
+
